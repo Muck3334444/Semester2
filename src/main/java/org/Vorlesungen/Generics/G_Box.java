@@ -18,6 +18,6 @@ public class G_Box<T> implements Markierbar<T>{
 
     @Override
     public T getMarke() {
-        return null;
+        return value;
     }
 }

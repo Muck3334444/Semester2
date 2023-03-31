@@ -5,7 +5,7 @@ public class TestKlasse {
         var pair1 = new Pair("Hallo", " Welt");
         var pair2 = new Pair(5, 3097);
         print(pair1);
-        System.out.println(sum(pair2 ));
+        System.out.println(sum(pair2));
     }
 
     public static void print(Pair<?,?> p) {
