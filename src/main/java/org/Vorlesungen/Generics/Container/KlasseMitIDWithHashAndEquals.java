@@ -2,38 +2,24 @@ package org.Vorlesungen.Generics.Container;
 
 import java.util.Objects;
 
-public class KlasseMitIDWithHashAndEquals {
-    private int id;
-
+public class KlasseMitIDWithHashAndEquals extends KlasseOhneEqualsAndHash{
     public KlasseMitIDWithHashAndEquals(int id) {
-        super();
-        this.id = id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        super(id);
     }
 
     @Override
     public int hashCode() {
-        System.out.println("Hash Methode");
-        return Objects.hash(id);
-        //return 1234;
-    }
-
-    public int getId() {
-        return id;
+        System.out.print("Hash Methode    ");
+        return Objects.hash(getId());
     }
 
     @Override
     public boolean equals(Object obj){
         if (obj == null)
             return false;
-        if (this == obj)
-            return true;
         if (getClass() != obj.getClass())
             return false;
         System.out.println("Equals Methode von: " + this);
-        return id == ((KlasseMitIDWithHashAndEquals)obj).id;
+        return getId() == ((KlasseMitIDWithHashAndEquals)obj).getId();
     }
 }

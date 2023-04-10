@@ -2,25 +2,14 @@ package org.Vorlesungen.Generics.Container;
 
 import java.util.Objects;
 
-public class KlasseMitIDOnlyWithHash {
-    private int id;
-
+public class KlasseMitIDOnlyWithHash extends KlasseOhneEqualsAndHash{
     public KlasseMitIDOnlyWithHash(int id) {
-        super();
-        this.id = id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        super(id);
     }
 
     @Override
     public int hashCode() {
-        System.out.println("Hash Methode");
-        return Objects.hash(id);
-    }
-
-    public int getId() {
-        return id;
+        System.out.print("Hash Methode  ");
+        return Objects.hash(getId());
     }
 }

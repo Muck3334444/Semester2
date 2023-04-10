@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Generics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDOnlyWithEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDOnlyWithHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDWithHashAndEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDOnlyWithEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDOnlyWithEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDOnlyWithHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDOnlyWithHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDWithHashAndEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDWithHashAndEquals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/VerwaltungsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/VerwaltungsClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.Vorlesungen.Generics.Container.VerwaltungsClass">
+  <component name="RunManager" selected="Application.VerwaltungsClass">
     <configuration name="FileNotFoundExeption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.ExeptionHandeling.FileNotFoundExeption" />
       <module name="InfoSemester2" />
@@ -132,8 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.Vorlesungen.Generics.Container.VerwaltungsClass" />
-        <item itemvalue="Application.org.Vorlesungen.Generics.TestKlasse" />
+        <item itemvalue="Application.VerwaltungsClass" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Steuerklasse" />
         <item itemvalue="Application.FileNotFoundExeption" />
@@ -156,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679648607024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Generics">
+      <created>1680281420185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680281420185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

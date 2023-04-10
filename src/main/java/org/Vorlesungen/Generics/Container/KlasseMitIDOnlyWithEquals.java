@@ -1,21 +1,8 @@
 package org.Vorlesungen.Generics.Container;
 
-import java.util.Objects;
-
-public class KlasseMitIDOnlyWithEquals {
-    private int id;
-
+public class KlasseMitIDOnlyWithEquals extends KlasseOhneEqualsAndHash{
     public KlasseMitIDOnlyWithEquals(int id) {
-        super();
-        this.id = id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
+        super(id);
     }
 
     @Override
@@ -27,6 +14,6 @@ public class KlasseMitIDOnlyWithEquals {
         if (getClass() != obj.getClass())
             return false;
         System.out.println("Equals Methode von: " + this);
-        return id == ((KlasseMitIDOnlyWithEquals)obj).id;
+        return getId() == ((KlasseMitIDOnlyWithEquals)obj).getId();
     }
 }

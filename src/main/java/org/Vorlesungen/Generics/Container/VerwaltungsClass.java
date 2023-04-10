@@ -15,75 +15,42 @@ public class VerwaltungsClass {
         SetWithHashAndEquals();
     }
 
-    public static void SetWithHashAndEquals() {
-        System.out.println("\n----------------------------------------");
-        System.out.println("Klasse mit hash and equals:\n");
-        Set<KlasseMitIDWithHashAndEquals> classWithIdSet = new HashSet<>();
-        KlasseMitIDWithHashAndEquals classWithId1 = new KlasseMitIDWithHashAndEquals(402213);
-        KlasseMitIDWithHashAndEquals classWithId2 = new KlasseMitIDWithHashAndEquals(402213);
-        System.out.println("Hash wert class1: " + classWithId1);
-        System.out.println("Hash wert class2: " + classWithId2 + "\n");
+    public static void SetWithParentClass(KlasseOhneEqualsAndHash class1, KlasseOhneEqualsAndHash class2) {
+        Set<KlasseOhneEqualsAndHash> classWithIdSet = new HashSet<>();
+        System.out.println("Hash wert class1: " + class1);
+        System.out.println("Hash wert class2: " + class2 + "\n");
 
-        classWithIdSet.add(classWithId1);
-        classWithIdSet.add(classWithId2);
+        classWithIdSet.add(class1);
+        System.out.println("class1 eingefuegt");
+        classWithIdSet.add(class2);
 
-        System.out.println();
+        System.out.println("class2 eingefuegt\n");
 
-        System.out.println("class1 == class2 ist " + classWithId1.equals(classWithId2) + "\n");
+        System.out.println("class1 == class2 ist " + class1.equals(class2) + "\n");
 
         System.out.println("Anzahl Klassen im Set: " + classWithIdSet.size()+ "\n");
 
         System.out.println("Ids in den Klassen: ");
-        for (KlasseMitIDWithHashAndEquals classWithId: classWithIdSet) {
-            System.out.println("    " + classWithId.getId());
-        }
-    }
-
-    public static void SetWithHash() {
-        System.out.println("\n----------------------------------------");
-        System.out.println("Klasse mit hash\n");
-        Set<KlasseMitIDOnlyWithHash> classWithIdSet = new HashSet<>();
-        KlasseMitIDOnlyWithHash classWithId1 = new KlasseMitIDOnlyWithHash(402213);
-        KlasseMitIDOnlyWithHash classWithId2 = new KlasseMitIDOnlyWithHash(402213);
-        System.out.println("Hash wert class1: " + classWithId1);
-        System.out.println("Hash wert class2: " + classWithId2 + "\n");
-
-        classWithIdSet.add(classWithId1);
-        classWithIdSet.add(classWithId2);
-
-        System.out.println();
-
-        System.out.println("class1 == class2 ist " + classWithId1.equals(classWithId2) + "\n");
-
-        System.out.println("Anzahl Klassen im Set: " + classWithIdSet.size()+ "\n");
-
-        System.out.println("Ids in den Klassen: ");
-        for (KlasseMitIDOnlyWithHash classWithId: classWithIdSet) {
+        for (KlasseOhneEqualsAndHash classWithId: classWithIdSet) {
             System.out.println("    " + classWithId.getId());
         }
     }
 
     public static void SetWithEquals() {
         System.out.println("\n----------------------------------------");
-        System.out.println("Klasse mit equals:\n");
-        Set<KlasseMitIDOnlyWithEquals> classWithIdSet = new HashSet<>();
-        KlasseMitIDOnlyWithEquals classWithId1 = new KlasseMitIDOnlyWithEquals(402213);
-        KlasseMitIDOnlyWithEquals classWithId2 = new KlasseMitIDOnlyWithEquals(402213);
-        System.out.println("Hash wert class1: " + classWithId1);
-        System.out.println("Hash wert class2: " + classWithId2 + "\n");
+        System.out.println("\nKlasse mit equals:\n");
+        SetWithParentClass(new KlasseMitIDOnlyWithEquals(402213),new KlasseMitIDOnlyWithEquals(402213));
+    }
 
-        classWithIdSet.add(classWithId1);
-        classWithIdSet.add(classWithId2);
+    public static void SetWithHash() {
+        System.out.println("\n----------------------------------------");
+        System.out.println("\nKlasse mit hash:\n");
+        SetWithParentClass(new KlasseMitIDOnlyWithHash(402213),new KlasseMitIDOnlyWithHash(402213));
+    }
 
-        System.out.println();
-
-        System.out.println("class1 == class2 ist " + classWithId1.equals(classWithId2) + "\n");
-
-        System.out.println("Anzahl Klassen im Set: " + classWithIdSet.size()+ "\n");
-
-        System.out.println("Ids in den Klassen: ");
-        for (KlasseMitIDOnlyWithEquals classWithId: classWithIdSet) {
-            System.out.println("    " + classWithId.getId());
-        }
+    public static void SetWithHashAndEquals() {
+        System.out.println("\n----------------------------------------");
+        System.out.println("\nKlasse mit hash and equals:\n");
+        SetWithParentClass(new KlasseMitIDWithHashAndEquals(402213),new KlasseMitIDWithHashAndEquals(402213));
     }
 }
