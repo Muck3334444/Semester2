@@ -10,12 +10,12 @@ public class VerwaltungsClass {
 //            System.out.println(i);
 //        }
 
-        SetWithEquals();
-        SetWithHash();
-        SetWithHashAndEquals();
+        setWithEquals();
+        setWithHash();
+        setWithHashAndEquals();
     }
 
-    public static void SetWithParentClass(KlasseOhneEqualsAndHash class1, KlasseOhneEqualsAndHash class2) {
+    public static void setWithParentClass(KlasseOhneEqualsAndHash class1, KlasseOhneEqualsAndHash class2) {
         Set<KlasseOhneEqualsAndHash> classWithIdSet = new HashSet<>();
         System.out.println("Hash wert class1: " + class1);
         System.out.println("Hash wert class2: " + class2 + "\n");
@@ -36,21 +36,21 @@ public class VerwaltungsClass {
         }
     }
 
-    public static void SetWithEquals() {
+    public static void setWithEquals() {
         System.out.println("\n----------------------------------------");
         System.out.println("\nKlasse mit equals:\n");
-        SetWithParentClass(new KlasseMitIDOnlyWithEquals(402213),new KlasseMitIDOnlyWithEquals(402213));
+        setWithParentClass(new KlasseMitIDOnlyWithEquals(402213),new KlasseMitIDOnlyWithEquals(402213));
     }
 
-    public static void SetWithHash() {
+    public static void setWithHash() {
         System.out.println("\n----------------------------------------");
         System.out.println("\nKlasse mit hash:\n");
-        SetWithParentClass(new KlasseMitIDOnlyWithHash(402213),new KlasseMitIDOnlyWithHash(402213));
+        setWithParentClass(new KlasseMitIDOnlyWithHash(402213),new KlasseMitIDOnlyWithHash(402213));
     }
 
-    public static void SetWithHashAndEquals() {
+    public static void setWithHashAndEquals() {
         System.out.println("\n----------------------------------------");
         System.out.println("\nKlasse mit hash and equals:\n");
-        SetWithParentClass(new KlasseMitIDWithHashAndEquals(402213),new KlasseMitIDWithHashAndEquals(402213));
+        setWithParentClass(new KlasseMitIDWithHashAndEquals(402213),new KlasseMitIDWithHashAndEquals(402213));
     }
 }
