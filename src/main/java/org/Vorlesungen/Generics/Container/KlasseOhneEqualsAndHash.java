@@ -1,6 +1,6 @@
 package org.Vorlesungen.Generics.Container;
 
-public abstract class KlasseOhneEqualsAndHash {
+public class KlasseOhneEqualsAndHash {
     private int id;
 
     public KlasseOhneEqualsAndHash(int id) {

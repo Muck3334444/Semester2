@@ -10,6 +10,7 @@ public class VerwaltungsClass {
 //            System.out.println(i);
 //        }
 
+        setWithoutHashOrEquals();
         setWithEquals();
         setWithHash();
         setWithHashAndEquals();
@@ -36,6 +37,11 @@ public class VerwaltungsClass {
         }
     }
 
+    public static void setWithoutHashOrEquals() {
+        System.out.println("\n----------------------------------------");
+        System.out.println("\nKlasse ohne Hash oder Equals:\n");
+        setWithParentClass(new KlasseOhneEqualsAndHash(402213),new KlasseOhneEqualsAndHash(402213));
+    }
     public static void setWithEquals() {
         System.out.println("\n----------------------------------------");
         System.out.println("\nKlasse mit equals:\n");
