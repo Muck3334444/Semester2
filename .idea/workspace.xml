@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Added inheritance to hashset">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/Woerterbuch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/SortStringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/Termin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/TerminVerwaltung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseOhneEqualsAndHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseOhneEqualsAndHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/VerwaltungsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/VerwaltungsClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,20 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Woerterbuch">
+  <component name="RunManager" selected="Application.SortStringArray">
+    <configuration name="SortStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Lambdas.SortStringArray" />
+      <module name="InfoSemester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sortieren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.Container.Sortieren" />
       <module name="InfoSemester2" />
@@ -75,25 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Steuerklasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.ExeptionHandeling.Steuerklasse" />
+    <configuration name="TerminVerwaltung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Lambdas.TerminVerwaltung" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.ExeptionHandeling.KontoAufgabe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.ExeptionHandeling.KontoAufgabe.Test1" />
-      <module name="InfoSemester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.ExeptionHandeling.KontoAufgabe.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortStringArray" />
+        <item itemvalue="Application.TerminVerwaltung" />
         <item itemvalue="Application.Woerterbuch" />
         <item itemvalue="Application.VerwaltungsClass" />
         <item itemvalue="Application.Sortieren" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Steuerklasse" />
       </list>
     </recent_temporary>
   </component>
