@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Added inheritance to hashset">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/SortStringArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/Termin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/TerminVerwaltung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Lambdas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/Guthaben.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/VerwaltungGeburtsMonat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/VerwaltungNamenUndGrossBuchstaben.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +61,13 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortStringArray">
-    <configuration name="SortStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Lambdas.SortStringArray" />
+  <component name="RunManager" selected="Application.VerwaltungGeburtsMonat">
+    <configuration name="Guthaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.Guthaben" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Lambdas.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sortieren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.Container.Sortieren" />
+    <configuration name="SortStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Lambdas.SortStringArray" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.Generics.Container.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerwaltungsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.Container.VerwaltungsClass" />
+    <configuration name="VerwaltungGeburtsMonat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungGeburtsMonat" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.Generics.Container.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Woerterbuch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.Container.Woerterbuch" />
+    <configuration name="VerwaltungNamenUndGrossBuchstaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungNamenUndGrossBuchstaben" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.Generics.Container.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerwaltungGeburtsMonat" />
+        <item itemvalue="Application.VerwaltungNamenUndGrossBuchstaben" />
+        <item itemvalue="Application.Guthaben" />
         <item itemvalue="Application.SortStringArray" />
         <item itemvalue="Application.TerminVerwaltung" />
-        <item itemvalue="Application.Woerterbuch" />
-        <item itemvalue="Application.VerwaltungsClass" />
-        <item itemvalue="Application.Sortieren" />
       </list>
     </recent_temporary>
   </component>
