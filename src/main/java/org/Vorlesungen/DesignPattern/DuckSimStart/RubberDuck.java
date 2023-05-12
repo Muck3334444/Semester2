@@ -12,4 +12,7 @@ public class RubberDuck extends Duck {
 		System.out.println("Squeaking");
 	}
 
+	@Override
+	public void fly() { System.out.println("Fly with rocket booster"); }
+
 }
