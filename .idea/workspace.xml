@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Enten">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/Artikel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/SortNumberList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/VerwaltungArtikel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/FlugzeugFliegen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/NatuerlichesFliegen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/DisplayCurrentWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/DuckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/DuckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/Fallen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/Fliegen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/FliegenRaketenBoost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/RedheadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/RubberDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +55,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/653222012/IdeaProjects/Semester2/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/653222012/IdeaProjects/Semester2/src/main/java/org/Vorlesungen/DesignPattern",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\653222012\IdeaProjects\Semester2\src\main\java\org\Vorlesungen\DesignPattern" />
       <recent name="C:\Users\653222012\IdeaProjects\Semester2\src\main\java\org\Vorlesungen\DesignPattern\DuckSim2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -65,7 +78,7 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortNumberList">
+  <component name="RunManager" selected="Application.org.Vorlesungen.DesignPattern.DuckSim2.DuckTest">
     <configuration name="DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DuckSimStart.DuckTest" />
       <module name="InfoSemester2" />
@@ -118,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerwaltungNamenUndGrossBuchstaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungNamenUndGrossBuchstaben" />
+    <configuration name="org.Vorlesungen.DesignPattern.DuckSim2.DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DuckSim2.DuckTest" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
+          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.DuckSim2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.Vorlesungen.DesignPattern.DuckSim2.DuckTest" />
         <item itemvalue="Application.SortNumberList" />
         <item itemvalue="Application.VerwaltungArtikel" />
         <item itemvalue="Application.DuckTest" />
         <item itemvalue="Application.VerwaltungGeburtsMonat" />
-        <item itemvalue="Application.VerwaltungNamenUndGrossBuchstaben" />
       </list>
     </recent_temporary>
   </component>

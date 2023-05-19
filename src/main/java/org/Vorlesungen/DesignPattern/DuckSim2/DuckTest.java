@@ -1,16 +1,18 @@
 package org.Vorlesungen.DesignPattern.DuckSim2;
 
+import org.Vorlesungen.DesignPattern.DuckSim2.FlyKlassensatz.FlugzeugFliegen;
+
 public class DuckTest {
 
 	public static void main(String[] args) {
 		Duck mallard = new MallardDuck();
-		mallard.swim();
-		mallard.display();
-		
-		Duck rubberDuck = new RubberDuck();
-		rubberDuck.makeNoise();
-		rubberDuck.display();
-		rubberDuck.fly();
+		mallard.ascend();
+		mallard.holdCourse();
+		mallard.land();
+		System.out.println();
+		mallard.setFlyable(new FlugzeugFliegen());
+		mallard.ascend();
+		mallard.holdCourse();
 	}
 
 }

@@ -1,13 +1,13 @@
 package org.Vorlesungen.DesignPattern.DuckSim2;
 
-import org.Vorlesungen.DesignPattern.DuckSim2.FlyKlassensatz.FliegenRaketenBoost;
+import org.Vorlesungen.DesignPattern.DuckSim2.FlyKlassensatz.FlugzeugFliegen;
 import org.Vorlesungen.DesignPattern.DuckSim2.NoiseKlassensatz.Quietsch;
 
 public class RubberDuck extends Duck {
 
 	public RubberDuck() {
 		noisable = new Quietsch();
-		flyable = new FliegenRaketenBoost();
+		flyable = new FlugzeugFliegen();
 	}
 	@Override
 	public void display() {

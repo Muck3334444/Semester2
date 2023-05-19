@@ -1,5 +1,7 @@
 package org.Vorlesungen.DesignPattern.DuckSim2.FlyKlassensatz;
 
 public interface Flyable {
-    void fly();
+    void abheben();
+    void kurshalten();
+    void landen();
 }

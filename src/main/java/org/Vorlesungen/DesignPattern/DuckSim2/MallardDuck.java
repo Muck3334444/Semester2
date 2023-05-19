@@ -1,6 +1,6 @@
 package org.Vorlesungen.DesignPattern.DuckSim2;
 
-import org.Vorlesungen.DesignPattern.DuckSim2.FlyKlassensatz.Fliegen;
+import org.Vorlesungen.DesignPattern.DuckSim2.FlyKlassensatz.NatuerlichesFliegen;
 import org.Vorlesungen.DesignPattern.DuckSim2.NoiseKlassensatz.Quack;
 
 public class MallardDuck extends Duck {
@@ -12,6 +12,6 @@ public class MallardDuck extends Duck {
 
 	public MallardDuck() {
 		noisable = new Quack();
-		flyable = new Fliegen();
+		flyable = new NatuerlichesFliegen();
 	}
 }
