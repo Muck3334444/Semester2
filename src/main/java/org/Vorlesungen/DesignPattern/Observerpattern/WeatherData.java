@@ -5,6 +5,16 @@ import java.util.List;
 
 public class WeatherData {
     private double temperature, humidity, pressure;
+
+    public WeatherData(double temperature, double humidity, double pressure) {
+        this.temperature = temperature;
+        this.humidity = humidity;
+        this.pressure = pressure;
+    }
+
+    public WeatherData() {
+    }
+
     public double getTemperature() {
         return temperature;
     }

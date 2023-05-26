@@ -5,11 +5,8 @@ import java.util.List;
 
 public class WeatherStation implements Subject{
     private WeatherData weatherData;
-    final private List<Observer> observerList;
-
     public WeatherStation() {
         weatherData = new WeatherData();
-        observerList = new ArrayList<>();
     }
 
     @Override
@@ -35,6 +32,7 @@ public class WeatherStation implements Subject{
 
     public void setWeatherData(WeatherData weatherData) {
         this.weatherData = weatherData;
+        measurementsChanged();
     }
 
     public List<Observer> getObserverList() {
