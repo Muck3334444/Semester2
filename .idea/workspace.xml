@@ -4,18 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Enten und Wetter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayHeatIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Wetter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/StarBucks/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/StarBucks/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StarBucks2/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StarBucks2/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StarBucks2/StarSucksVerwaltung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/DisplayCurrentWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayCurrentWeather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/DisplayForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayForecast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/DisplayStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayStatistic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/DuckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/DuckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/FlugzeugFliegen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/FlyKlassensatz/FlugzeugFliegen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/FlyKlassensatz/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/FlyKlassensatz/NatuerlichesFliegen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/FlyKlassensatz/NatuerlichesFliegen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/NoiseKlassensatz/Noisable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/NoiseKlassensatz/Noisable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/NoiseKlassensatz/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/NoiseKlassensatz/Quack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/NoiseKlassensatz/Quietsch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/NoiseKlassensatz/Quietsch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/NoiseKlassensatz/Stille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/NoiseKlassensatz/Stille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/RedheadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSim2/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSim2/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSimStart/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSimStart/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSimStart/DuckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSimStart/DuckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSimStart/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSimStart/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSimStart/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSimStart/RedheadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DuckSimStart/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StrategyPattern/DuckSimStart/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayCurrentWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/Display/DisplayCurrentWeather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/Display/DisplayForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayHeatIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/Display/DisplayHeatIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Display/DisplayStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/Display/DisplayStatistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/WeatherMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/Observerpattern/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/ObserverPattern/WeatherStation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +94,13 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherMainController">
-    <configuration name="DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DuckSimStart.DuckTest" />
+  <component name="RunManager" selected="Application.StarSucksVerwaltung">
+    <configuration name="SortNumberList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.SortNumberList" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.DuckSimStart.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortNumberList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.SortNumberList" />
+    <configuration name="StarSucksVerwaltung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.StarBucks2.StarSucksVerwaltung" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
+          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.StarBucks2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="WeatherMainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.Observerpattern.WeatherMainController" />
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.ObserverPattern.WeatherMainController" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.Observerpattern.*" />
+          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.ObserverPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Vorlesungen.DesignPattern.DuckSim2.DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DuckSim2.DuckTest" />
+    <configuration name="org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.DuckTest" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.DuckSim2.*" />
+          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarSucksVerwaltung" />
+        <item itemvalue="Application.org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.DuckTest" />
         <item itemvalue="Application.WeatherMainController" />
-        <item itemvalue="Application.org.Vorlesungen.DesignPattern.DuckSim2.DuckTest" />
         <item itemvalue="Application.VerwaltungArtikel" />
         <item itemvalue="Application.SortNumberList" />
-        <item itemvalue="Application.DuckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684486231718</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Wetter">
+      <created>1685090106295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685090106295</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +249,8 @@
     <MESSAGE value="Streams" />
     <MESSAGE value="Enten" />
     <MESSAGE value="Enten und Wetter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enten und Wetter" />
+    <MESSAGE value="Wetter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wetter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
