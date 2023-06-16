@@ -1,4 +1,4 @@
-package org.Vorlesungen.DesignPattern.StarBucks2;
+package org.Vorlesungen.DesignPattern.DecoratorPattern.StarBucks2;
 
 public class DarkRoast extends Beverage{
     public DarkRoast(boolean milk, boolean soy) {
