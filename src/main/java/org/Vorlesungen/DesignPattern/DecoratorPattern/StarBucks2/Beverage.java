@@ -1,4 +1,4 @@
-package org.Vorlesungen.DesignPattern.StarBucks2;
+package org.Vorlesungen.DesignPattern.DecoratorPattern.StarBucks2;
 
 public abstract class Beverage {
     private boolean milk, soy;
@@ -13,10 +13,15 @@ public abstract class Beverage {
 
     public double cost() {
         double price = 0;
-        if (milk) { price += 0.5; }
-        if (soy) { price += 0.7; }
+        if (milk) {
+            price += 0.5;
+        }
+        if (soy) {
+            price += 0.7;
+        }
         return price;
     }
+
     public boolean isMilk() {
         return milk;
     }
