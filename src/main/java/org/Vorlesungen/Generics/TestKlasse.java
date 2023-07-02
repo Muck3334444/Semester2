@@ -3,7 +3,7 @@ package org.Vorlesungen.Generics;
 public class TestKlasse {
     public static void main(String[] args) {
         var pair1 = new Pair("Hallo", " Welt");
-        var pair2 = new Pair(5, 3097);
+        var pair2 = new Pair(5, 3097d);
         print(pair1);
         System.out.println(sum(pair2));
     }
@@ -13,6 +13,9 @@ public class TestKlasse {
     }
 
     public static double sum(Pair<? extends Number, ? extends Number> p) {
-        return p.getValue1().doubleValue() + p.getValue2().doubleValue();
+        if (p.value1 instanceof Number && p.value2 instanceof Number) {
+            return ((Number)p.getValue1()).doubleValue() + ((Number)p.getValue2()).doubleValue();
+        }
+        return 0;
     }
 }

@@ -52,9 +52,9 @@ public class Woerterbuch {
     }
 
     public static void printMap() {
-        String s = "";
+        StringBuilder s = new StringBuilder();
         for (Map.Entry entry: woerterBuch.entrySet()) {
-            s += entry.getKey() + ":   " + entry.getValue() + "\n";
+            s.append(entry.getKey()).append(":   ").append(entry.getValue()).append("\n");
         }
         System.out.println(s + "\n");
     }

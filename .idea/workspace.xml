@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Wetter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/FileDecorator/TestSteuerung.java" afterDir="false" />
+    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Stream Aufgaben">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StarBucks2/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/StarBucks2/Beverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StarBucks2/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/StarBucks2/DarkRoast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/StarBucks2/StarSucksVerwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/StarBucks2/StarSucksVerwaltung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/FileDecorator/TestSteuerung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/FileDecorator/TestSteuerung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/KontoAufgabe/KontoAusnahme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/KontoAufgabe/KontoAusnahme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/Steuerklasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/Steuerklasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/Woerterbuch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/Woerterbuch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Markierbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Markierbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/TestKlasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/TestKlasse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/653222012/IdeaProjects/Semester2/src/main/java/org/Vorlesungen/DesignPattern",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/653222012/IdeaProjects/Semester2/src/main/java/org/Vorlesungen/DesignPattern&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\653222012\IdeaProjects\Semester2\src\main\java\org\Vorlesungen\DesignPattern" />
@@ -68,7 +70,46 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSteuerung">
+  <component name="RunManager" selected="Application.TestKlasse">
+    <configuration name="Steuerklasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.ExeptionHandeling.Steuerklasse" />
+      <module name="InfoSemester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Vorlesungen.ExeptionHandeling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.ExeptionHandeling.KontoAufgabe.Test1" />
+      <module name="InfoSemester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Vorlesungen.ExeptionHandeling.KontoAufgabe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKlasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.TestKlasse" />
+      <module name="InfoSemester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Vorlesungen.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSteuerung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DecoratorPattern.FileDecorator.TestSteuerung" />
       <module name="InfoSemester2" />
@@ -82,51 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerwaltungArtikel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungArtikel" />
+    <configuration name="Woerterbuch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.Container.Woerterbuch" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherMainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.ObserverPattern.WeatherMainController" />
-      <module name="InfoSemester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.ObserverPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.Vorlesungen.DesignPattern.DecoratorPattern.StarBucks2.StarSucksVerwaltung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DecoratorPattern.StarBucks2.StarSucksVerwaltung" />
-      <module name="InfoSemester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.DecoratorPattern.StarBucks2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.DuckTest" />
-      <module name="InfoSemester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.*" />
+          <option name="PATTERN" value="org.Vorlesungen.Generics.Container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestKlasse" />
+        <item itemvalue="Application.Woerterbuch" />
+        <item itemvalue="Application.Steuerklasse" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.TestSteuerung" />
-        <item itemvalue="Application.org.Vorlesungen.DesignPattern.DecoratorPattern.StarBucks2.StarSucksVerwaltung" />
-        <item itemvalue="Application.org.Vorlesungen.DesignPattern.StrategyPattern.DuckSim2.DuckTest" />
-        <item itemvalue="Application.WeatherMainController" />
-        <item itemvalue="Application.VerwaltungArtikel" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685090106295</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Stream Aufgaben">
+      <created>1686897452253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686897452253</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +233,8 @@
     <MESSAGE value="Enten" />
     <MESSAGE value="Enten und Wetter" />
     <MESSAGE value="Wetter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wetter" />
+    <MESSAGE value="Stream Aufgaben" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream Aufgaben" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -238,11 +248,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/KlasseMitIDWithHashAndEquals.java</url>
           <line>17</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/FileDecorator/TestSteuerung.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

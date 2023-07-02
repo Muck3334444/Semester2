@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Steuerklasse {
     public static void main(String[] args) {
-        Person person = new Person(149);
+        Person person = new Person(159);
         Scanner scanner = new Scanner(System.in);
         int index = scanner.nextInt();
         String[] sArray = new String[]{"Hi","Das","Ist","Eine", "Trap"};
