@@ -24,7 +24,8 @@ public class SortStringArray {
     private static void arraySortComparatorLambdas() {
         String[] strings = { "Werkstoffkunde", "WiIng", "Germanistik", "TierGenetik", "Physik", "Altorientalistik"};
         System.out.println("Alphabetical Sort\n");
-        Arrays.sort(strings, (s1,s2)->s1.compareTo(s2));
+        Comparator<String> comp = (s1,s2)->s1.compareTo(s2);
+        Arrays.sort(strings, comp);
         printStringArray(strings);
         System.out.println("\nLength Sort\n");
         Arrays.sort(strings, (s1,s2) -> s1.length() - s2.length());

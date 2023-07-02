@@ -17,7 +17,7 @@ public class TerminVerwaltung {
         termine[1].getZeit().add(Calendar.DATE,30);
 
         System.out.println();
-        sortTerminArray(termine, (t1,t2) -> t1.getZeit().getTimeInMillis() > t2.getZeit().getTimeInMillis()?1:-1);
+        sortTerminArray(termine, (t1,t2) -> t1.getZeit().getTimeInMillis() > t2.getZeit().getTimeInMillis() ? 1 : -1);
         printTermine(termine, t -> t.getBeschreibung().length() > 3);
 
     }

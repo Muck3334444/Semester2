@@ -21,7 +21,6 @@ public class Guthaben {
 
         guthaben.stream().map((x) -> (int)(x*zinsen)).forEach(System.out::println);
         System.out.println(guthaben.stream().map((x) -> (int)(x*zinsen)).reduce(0,Integer::sum));
-        System.out.println("\n" + sum + "\n");
     }
 
     private static void printList(List<Integer> list) {

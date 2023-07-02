@@ -2,6 +2,7 @@ package org.Vorlesungen.FunctionalProgramming.Streams;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class VerwaltungArtikel {
     public static void main(String[] args) {
@@ -14,6 +15,6 @@ public class VerwaltungArtikel {
         artikelList.add(new Artikel("000006","Lebensmittel",1.99,150));
         String gesuchteWarengruppe = "Lebensmittel";
         int bestandGrenze = 25;
-        artikelList.stream().filter(x->x.getGroup() == gesuchteWarengruppe).filter(x->x.getStorage() > bestandGrenze).forEach(x-> System.out.println(x));
+        artikelList.stream().filter(x-> Objects.equals(x.getGroup(), gesuchteWarengruppe)).filter(x->x.getStorage() > bestandGrenze).forEach(System.out::println);
     }
 }

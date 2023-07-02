@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Stream Aufgaben">
+    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Aufgaben angepasst">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Consumer/ConsumerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/FileDecorator/TestSteuerung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/DesignPattern/DecoratorPattern/FileDecorator/TestSteuerung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/KontoAufgabe/KontoAusnahme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/KontoAufgabe/KontoAusnahme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/Steuerklasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/ExeptionHandeling/Steuerklasse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/Woerterbuch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Container/Woerterbuch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Markierbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/Markierbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/TestKlasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/Generics/TestKlasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/SortStringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/SortStringArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/TerminVerwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/TerminVerwaltung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/Guthaben.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/Guthaben.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +68,13 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestKlasse">
-    <configuration name="Steuerklasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.ExeptionHandeling.Steuerklasse" />
+  <component name="RunManager" selected="Application.VerwaltungArtikel">
+    <configuration name="ConsumerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Consumer.ConsumerController" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.ExeptionHandeling.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.ExeptionHandeling.KontoAufgabe.Test1" />
+    <configuration name="Guthaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.Guthaben" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.ExeptionHandeling.KontoAufgabe.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKlasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.TestKlasse" />
+    <configuration name="VerwaltungArtikel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungArtikel" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.Generics.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSteuerung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DecoratorPattern.FileDecorator.TestSteuerung" />
+    <configuration name="VerwaltungGeburtsMonat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungGeburtsMonat" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.DecoratorPattern.FileDecorator.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Woerterbuch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.Generics.Container.Woerterbuch" />
+    <configuration name="VerwaltungNamenUndGrossBuchstaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungNamenUndGrossBuchstaben" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.Generics.Container.*" />
+          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestKlasse" />
-        <item itemvalue="Application.Woerterbuch" />
-        <item itemvalue="Application.Steuerklasse" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.TestSteuerung" />
+        <item itemvalue="Application.VerwaltungArtikel" />
+        <item itemvalue="Application.VerwaltungGeburtsMonat" />
+        <item itemvalue="Application.VerwaltungNamenUndGrossBuchstaben" />
+        <item itemvalue="Application.Guthaben" />
+        <item itemvalue="Application.ConsumerController" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686897452253</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Aufgaben angepasst">
+      <created>1688308368457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688308368457</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +239,8 @@
     <MESSAGE value="Enten und Wetter" />
     <MESSAGE value="Wetter" />
     <MESSAGE value="Stream Aufgaben" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream Aufgaben" />
+    <MESSAGE value="Aufgaben angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgaben angepasst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
