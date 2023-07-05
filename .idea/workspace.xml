@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Aufgaben angepasst">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Consumer/ConsumerController.java" afterDir="false" />
+    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Aufgaben weiter angepasst">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/DuckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/FlugKlassensatz/FlugzeugFliegen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/FlugKlassensatz/FlyingBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/FlugKlassensatz/NatuerlichesFliegen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/FlugKlassensatz/NoFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/NoiseKlassensatz/Noisable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/NoiseKlassensatz/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/NoiseKlassensatz/Quietsch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/strategy/NoiseKlassensatz/Stille.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/SortStringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/SortStringArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/TerminVerwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Lambdas/TerminVerwaltung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/Guthaben.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Vorlesungen/FunctionalProgramming/Streams/Guthaben.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/653222012/IdeaProjects/Semester2/src/main/java/org/Vorlesungen/DesignPattern&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Lars/IdeaProjects/Semester2/src/main/java/org/ExamPractice/patterns/strategy/NoiseKlassensatz",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lars\IdeaProjects\Semester2\src\main\java\org\ExamPractice\patterns\strategy\NoiseKlassensatz" />
       <recent name="C:\Users\653222012\IdeaProjects\Semester2\src\main\java\org\Vorlesungen\DesignPattern" />
       <recent name="C:\Users\653222012\IdeaProjects\Semester2\src\main\java\org\Vorlesungen\DesignPattern\DuckSim2" />
     </key>
@@ -68,13 +75,13 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VerwaltungArtikel">
-    <configuration name="ConsumerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Consumer.ConsumerController" />
+  <component name="RunManager" selected="Application.DuckTest">
+    <configuration name="DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ExamPractice.patterns.strategy.DuckTest" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Consumer.*" />
+          <option name="PATTERN" value="org.ExamPractice.patterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Guthaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.Guthaben" />
+    <configuration name="TestSteuerung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.DesignPattern.DecoratorPattern.FileDecorator.TestSteuerung" />
       <module name="InfoSemester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
+          <option name="PATTERN" value="org.Vorlesungen.DesignPattern.DecoratorPattern.FileDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuckTest" />
+        <item itemvalue="Application.TestSteuerung" />
         <item itemvalue="Application.VerwaltungArtikel" />
         <item itemvalue="Application.VerwaltungGeburtsMonat" />
         <item itemvalue="Application.VerwaltungNamenUndGrossBuchstaben" />
-        <item itemvalue="Application.Guthaben" />
-        <item itemvalue="Application.ConsumerController" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688308368457</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Aufgaben weiter angepasst">
+      <created>1688311408627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688311408627</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +254,8 @@
     <MESSAGE value="Wetter" />
     <MESSAGE value="Stream Aufgaben" />
     <MESSAGE value="Aufgaben angepasst" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgaben angepasst" />
+    <MESSAGE value="Aufgaben weiter angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgaben weiter angepasst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
