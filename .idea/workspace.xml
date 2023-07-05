@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Übung enten">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/observer/PengiunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/observer/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/observer/Scientist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/observer/Subject.java" afterDir="false" />
+    <list default="true" id="83708222-9cec-4230-83f5-d67df20da783" name="Changes" comment="Übung Pinguine">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/CoffeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/concreteComponents/Darkroast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/concreteComponents/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/concreteComponents/Houseblend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/concreteDecorators/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/concreteDecorators/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ExamPractice/patterns/decorator/concreteDecorators/Whip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,20 @@
       <recent name="org.Vorlesungen.Generics.Container" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PengiunTest">
+  <component name="RunManager" selected="Application.CoffeeTest">
+    <configuration name="CoffeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ExamPractice.patterns.decorator.CoffeeTest" />
+      <module name="InfoSemester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ExamPractice.patterns.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ExamPractice.patterns.strategy.DuckTest" />
       <module name="InfoSemester2" />
@@ -122,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerwaltungGeburtsMonat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Vorlesungen.FunctionalProgramming.Streams.VerwaltungGeburtsMonat" />
-      <module name="InfoSemester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Vorlesungen.FunctionalProgramming.Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeTest" />
         <item itemvalue="Application.PengiunTest" />
         <item itemvalue="Application.DuckTest" />
         <item itemvalue="Application.TestSteuerung" />
         <item itemvalue="Application.VerwaltungArtikel" />
-        <item itemvalue="Application.VerwaltungGeburtsMonat" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688566534480</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Übung Pinguine">
+      <created>1688567418380</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688567418380</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +268,8 @@
     <MESSAGE value="Aufgaben angepasst" />
     <MESSAGE value="Aufgaben weiter angepasst" />
     <MESSAGE value="Übung enten" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung enten" />
+    <MESSAGE value="Übung Pinguine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung Pinguine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
