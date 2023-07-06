@@ -1,4 +1,4 @@
-package org.ExamPractice.patterns.observer;
+package org.Klausur.FuchsUndHaseObserverPattern;
 
 import java.util.ArrayList;
 import java.util.List;

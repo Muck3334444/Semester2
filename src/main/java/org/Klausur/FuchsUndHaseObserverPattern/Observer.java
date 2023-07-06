@@ -1,4 +1,4 @@
-package org.ExamPractice.patterns.observer;
+package org.Klausur.FuchsUndHaseObserverPattern;
 
 public interface Observer {
     void update();

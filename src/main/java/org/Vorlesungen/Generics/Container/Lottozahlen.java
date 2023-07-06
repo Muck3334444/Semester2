@@ -5,7 +5,10 @@ import java.util.Random;
 import java.util.Set;
 
 public class Lottozahlen {
-    public Set<Integer> getLottoNumbers() {
+    public static void main(String[] args) {
+        getLottoNumbers().stream().sorted().forEach(System.out::println);
+    }
+    public static Set<Integer> getLottoNumbers() {
         Set<Integer> numbers = new HashSet<>();
         Random r = new Random();
         while(numbers.size() < 7) {
